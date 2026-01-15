@@ -1,0 +1,41 @@
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+#game {
+  width: 300px;
+  height: 400px;
+  background: #eee;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid black;
+}
+
+#player {
+  width: 40px;
+  height: 40px;
+  background: blue;
+  position: absolute;
+  bottom: 10px;
+  left: 130px;
+}
+
+.enemy {
+  width: 40px;
+  height: 40px;
+  background: red;
+  position: absolute;
+  top: 0;
+}
+
+#score {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+}
